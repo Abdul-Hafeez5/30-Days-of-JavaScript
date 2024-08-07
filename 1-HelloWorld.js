@@ -5,5 +5,5 @@ const HelloWorld = () => {
 };
 const result = HelloWorld();
 
-console.log(result);
+console.log(result());
 
