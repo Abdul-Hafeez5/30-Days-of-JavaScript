@@ -8,6 +8,6 @@ const transform = (arr, fn) => {
 };
 
 const arr = [1, 2, 3, 4];
-const fn = (element, index) => element * 2 % index ;
+const fn = (element, index) => (element * 2) % index;
 
 console.log(transform(arr, fn));
